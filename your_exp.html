@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starting Your Experience | UMSI</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
     <header>
 
-  <a href = "#main">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
-        <nav>
+  <a class="skip-link" href="#main">Skip to Main Content</a>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" class="logo" alt="University of Michigan School of Information">
+        <nav aria-label="Main">
             <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "prep.html">Preparing for Your Experience</a></li>
-                <li><a href = "your_exp.html">Starting Your Experience</a></li>
-                <li><a href = "resources_contact.html">Resources &amp; Contacts</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prep.html">Preparing for Your Experience</a></li>
+                <li><a href="your_exp.html" aria-current="page">Starting Your Experience</a></li>
+                <li><a href="resources_contact.html">Resources &amp; Contacts</a></li>
             </ul>
         </nav>
-    <h1>Starting  Your Experience</h1>
+    <h1>Starting Your Experience</h1>
 
     </header>
     <main id="main">
 
-<div>
+<div class="intro">
   <p>Your ELO is an opportunity to apply what you've learned while working with a project, organization, or community. As you work, stay organized, communicate with your project partners, and use feedback to adjust your approach.</p>
 </div>
 
@@ -33,11 +34,11 @@
   <img class="experience-image" src="images/Experience_Start_Out_the_Work.jpg" alt="Students starting work with a project partner">
   <h2>Starting the Work with Your Partner</h2>
   <p>First impressions shape the trajectory of a partnership. Draft clear, professional outreach to launch the working relationship, and use your first meeting to define roles and project bounds.</p>
-  <ul>
+  <ul class="feature-list">
     <li><strong>Partner Communication:</strong> Draft clear, professional outreach to launch working relationships.</li>
     <li><strong>First Meetings:</strong> Structure productive kickoff meetings that define roles and project bounds.</li>
   </ul>
-  <ul>
+  <ul class="resource-list">
     <li><a href="https://docs.google.com/document/d/1fWFXwoW5fKX_Tctn97Gio5XZDwILNlqIOyKKE8Yk5J0/edit?usp=drive_link">Initial Client Email Examples</a>: Plug-and-play email templates for first contact with clients and partners.</li>
     <li><a href="https://docs.google.com/document/d/1ItXxYauAcPoaGMUZWuJsX-OLFfGmeBOWT7JNhoZxGyU/edit?usp=drive_link">Initial Client Meeting Sample Agenda</a>: Step-by-step structure for running a professional kickoff call.</li>
   </ul>
@@ -59,7 +60,7 @@
   <img class="experience-image" src="images/Experience_Resources.jpg" alt="Resources for working through an engaged learning experience">
   <h2>Helpful Resources</h2>
   <p>Use these resources as you work through your ELO:</p>
-  <ul>
+  <ul class="card-grid">
     <li>Project Management Worksheet</li>
     <li>Student Project Communications Plan</li>
     <li>Feedback Worksheet</li>
@@ -72,7 +73,7 @@
   <img class="experience-image" src="images/Experience_Manage_Your_Project.jpg" alt="Students managing an engaged learning project">
   <h2>Manage Your Project</h2>
   <p>Real-world projects can change as you learn more. Use your project plan to keep track of what needs to be done and adjust when priorities change.</p>
-  <ul>
+  <ul class="card-grid">
     <li>Break larger goals into smaller tasks.</li>
     <li>Track milestones and deadlines.</li>
     <li>Document your progress.</li>
